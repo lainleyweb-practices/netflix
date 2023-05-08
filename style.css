@@ -1,8 +1,13 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@600&family=Poppins&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+    outline: none;
+    border: none;
 }
 .container{
     /* background: black; */
@@ -30,13 +35,9 @@ ul li:hover{
     color: red;
     cursor: pointer;
 }
-.content{
-    background: black;
-}
 .search{
     /* border:  2px solid red; */
     padding: 0 30px;
-    
 }
 .search a{
     color: white;
@@ -48,4 +49,64 @@ ul li:hover{
 }
 i{
     font-size: 24px;
+}
+.content{
+    background: black;
+    height: 100vh;
+    /* background-image: url(/img/money\ heist1.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+.text{
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    float: left;
+    margin: 130px 40px;
+    border:2px solid red;
+    width: 600px;
+}
+.text span{
+    color: red;
+    font-weight: bolder;
+    font-size: 72px;
+    padding: 0 5px;
+}
+.text h2{
+    font-size:30px;
+    font-weight: 300;
+}
+.texty{
+    /* text-indent: 30px; */
+    margin-left: 25px;
+    /* font-size: 33px; */
+    /* margin-top: 0; */
+    /* line-height: 34px; */
+    font-family: 'Frank Ruhl Libre', serif;
+    font-family: 'Poppins', sans-serif;
+}
+.texty h1{
+    font-size: 33px;
+    letter-spacing: 5px;
+    line-height: 37px;
+}
+button{
+    padding: 8px 42px;
+    margin: 50px 19px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+button i{
+    color: red;
+    font-size: 16px;
+    /* margin: 5px; */
+    /* padding: 0 6px; */
+    padding-right:12px;
+}
+.btn1{
+    background: grey;
+    color: white;
 }
