@@ -53,12 +53,13 @@ i{
 .content{
     background: black;
     height: 100vh;
-    /* background-image: url(/img/money\ heist1.jpg); */
+    background-image: url(/img/money\ heist1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 1;
+    opacity: 0.6;
 }
 .text{
+    opacity: 1;
     /* display: flex; */
     /* flex-wrap: wrap; */
     float: left;
