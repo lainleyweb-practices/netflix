@@ -109,7 +109,9 @@ button{
     cursor: pointer;
 }
 button:hover{
-    background: red;
+    /* background: rgba(176, 35, 35, 0.578); */
+    box-shadow: 0 0 10px white;;
+    /* background: red; */
     color: black;
     /* background: linear-gradient(to right, red,black); */
 }
@@ -125,6 +127,11 @@ button i:hover{
 .btn1{
     background: rgba(128, 128, 128, 0.578);
     color: white;
+}
+.btn1:hover{
+    background: white;
+    /* box-shadow: 0 0 10px whitesmoke; */
+    box-shadow: 0 0 10px rgb(128, 128, 128);
 }
 .contentA{
     background: black;
@@ -158,12 +165,6 @@ button i:hover{
     width: 200px;
     /* padding: 0 5px; */
    
-}
-.card p{
-    position: absolute;
-    z-index: -1;
-    color: black;
-    top: 0;
 }
 img{
     position: relative;
