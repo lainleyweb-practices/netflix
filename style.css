@@ -1,0 +1,174 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@600&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    outline: none;
+    border: none;
+    scroll-behavior: smooth;
+}
+body{
+    background: black;
+}
+.container{
+    /* background: black; */
+    color: white;
+    height: 100vh;
+}
+header{
+    background: black;
+    /* background: linear-gradient(90deg, rgba(0,0,0,1)0%, rgba(83,100,141,0)100%); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 7px;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+   
+}
+ul li{
+    padding: 0 8px;
+    font-size: 20px;
+}
+ul li:hover{
+    color: red;
+    cursor: pointer;
+}
+.search{
+    /* border:  2px solid red; */
+    padding: 0 30px;
+}
+.search a{
+    color: white;
+    padding: 0 10px;
+}
+.search a:hover{
+    cursor: pointer;
+    color: azure;
+}
+i{
+    font-size: 24px;
+}
+.content{
+    background: black;
+    height: 100vh;
+    background-image: url(/img/money\ heist1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+}
+.text{
+    background: linear-gradient(90deg, rgba(0,0,0,1)0%, rgba(83,100,141,0)100%);
+    float: left;
+    width: 700px;
+    height: 100vh;
+    /* z-index: -9; */
+    position: absolute;
+}
+.text span{
+    color: red;
+    font-weight: bolder;
+    font-size: 72px;
+    padding: 0 5px;
+}
+.text h2{
+    font-size:30px;
+    font-weight: 300;
+}
+.texty{
+    align-items: center;
+    justify-content: center;
+    /* text-indent: 30px; */
+    margin :90px 64px;
+    /* border: 2px solid red; */
+    font-family: 'Frank Ruhl Libre', serif;
+    font-family: 'Poppins', sans-serif;
+}
+.texty h1{
+    font-size: 33px;
+    letter-spacing: 5px;
+    line-height: 37px;
+    /* margin-left: 10px; */
+    /* text-indent: 10px; */
+}
+button{
+    padding: 8px 42px;
+    margin: 50px 19px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+button:hover{
+    /* background: rgba(176, 35, 35, 0.578); */
+    box-shadow: 0 0 10px white;;
+    /* background: red; */
+    color: black;
+    /* background: linear-gradient(to right, red,black); */
+}
+button i{
+    color: red;
+    font-size: 16px;
+    padding-right:12px;
+}
+button i:hover{
+    color: black;
+}
+
+.btn1{
+    background: rgba(128, 128, 128, 0.578);
+    color: white;
+}
+.btn1:hover{
+    background: white;
+    /* box-shadow: 0 0 10px whitesmoke; */
+    box-shadow: 0 0 10px rgb(128, 128, 128);
+}
+.contentA{
+    background: black;
+    height: 100vh;
+    /* background-image: url(/img/money\ heist1.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* opacity: 0.9; */
+}
+.heading{
+    padding: 10px;
+    font-size: 22px;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+}
+.row{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* gap: 2px; */
+    margin: 0 12px;
+    background: blanchedalmond;
+    
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    /* background: rgba(0, 0, 0, 0.259); */
+    width: 200px;
+    /* padding: 0 5px; */
+   
+}
+img{
+    position: relative;
+}
+.card:hover{
+    box-shadow: 10px 10px red;
+}
