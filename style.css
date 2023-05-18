@@ -169,3 +169,6 @@ button i:hover{
 img{
     position: relative;
 }
+.card:hover{
+    box-shadow: 10px 10px red;
+}
